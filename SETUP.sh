@@ -7,11 +7,11 @@ sleep 1
 echo " FIRST SUBSCRIBE OUR YOUTUBE CHANNEL "
 am start -a android.intent.action.VIEW -d http://www.youtube.com/c/IAMXYT
 #command;>;>>
-#CHECKING ROOTING PERMISSION#
-if [ "$(whoami)" = "root" ]
-then
-# Switch permissive
-su -c 'setenforce 0'
+
+
+
+
+
 
 # INSTALL DEPENDIES
 termux-setup-storage
@@ -47,23 +47,5 @@ echo " "
 toilet "plese type command to start " -f term -F border --gay | pv -qL 200
 sleep 0.8
 echo "  "
-else
-echo -e "�[40;38;5;82m [HELLO SIR WELCOME TO THE 3RD PARTY FIX TOOL BY GAMATARU] "
-echo ""
-sleep 1
-echo "YOU ARE NON ROOT USER !"
-echo ""
-sleep 1
-echo "SERVER X Series Is Only For ROOTED Users"
-echo ""
-sleep 1
-echo "If U Are ROOTED Users Then || Follow This Step"
-echo ""
-sleep 1
-echo "TYPE tsu THEN ENTER "
-echo ""
-sleep 1
-echo "AND PASTE LINK "
-echo ""
-sleep 1
-fi
+
+
